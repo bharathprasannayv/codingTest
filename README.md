@@ -14,16 +14,17 @@ This program is to return movie title in ascending order.
 
 Steps to execute Question1.java
 
-1. Right click the program and run as java program
-2. Then enter movie name in console then click enter
+1. Right click the project and run as spring boot application and choose PickYourTrailApplication program
+2. Then open rest Client and paste this url -> http://localhost:9999/pickYourTrail/getMovieTitles?name=spiderman
+3. Request type is GET.
+2. Then send request
 3. The you will see list of movie name in ascending order
 
 Sample Input: spiderman
 ===========================
 Sample Output:
 Amazing Spiderman Syndrome
-Fighting, Flying and Driving: The Stunts of
-Spiderman 3
+Fighting, Flying and Driving: The Stunts of Spiderman 3
 Hollywood's Master Storytellers: Spiderman Live
 Italian Spiderman
 Spiderman
@@ -35,7 +36,6 @@ Superman, Spiderman or Batman
 The Amazing Spiderman T4 Premiere Special
 The Death of Spiderman
 They Call Me Spiderman
-
 
 Steps to execute Question2.java
 
